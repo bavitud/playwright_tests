@@ -14,4 +14,9 @@ test.describe('My First Test Suite', () => {
     await page.locator('button.hamburger-menu__button').click();
     await expect(page.locator('div.hamburger-menu__dropdown-section')).toBeVisible();
   });
+
+test('console log', async ({ page }) => {
+    await console.log ('test')
+  });
+
 })
