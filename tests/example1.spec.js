@@ -16,6 +16,6 @@ test.describe('My First Test Suite', () => {
   });
 
    test('console log', async ({ page }) => {
-    await console.log ('test');
+    await console.log ('newtest');
   });
 })
